@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Styled Table and Shapes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    table {
+      margin: 0 auto;
+      border-collapse: separate;
+      border-spacing: 0;
+      background-color: #b0d8df;
+      border: 2px solid #70aebc;
+      border-radius: 10px;
+    }
+
+    th, td {
+      border: 2px solid #70aebc;
+      padding: 10px 50px;
+      border-radius: 10px;
+    }
+
+    th {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .shapes-container {
+      display: grid;
+      grid-template-columns: repeat(3, 80px);
+      gap: 20px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .shape {
+      width: 80px;
+      height: 60px;
+      border: 2px solid #8bc34a;
+    }
+
+    .oval {
+      border-radius: 50%;
+    }
+    h1{
+        color:blue;
+    }
+  </style>
+</head>
+<body>
+ <h1 >Task 4</h1>
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+  <div class="shapes-container">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape oval"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+
+</body>
+</html>
